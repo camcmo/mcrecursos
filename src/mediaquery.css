@@ -1,0 +1,355 @@
+@media only screen and (max-width: 600px) {
+    @font-face {
+        font-family: Clear Sans;
+        src: url(.././fonts/ClearSans-Regular.ttf);
+    }
+
+    html {
+        background-image: url(/img/textura2.jpg);
+    }
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: Clear Sans;
+    }
+
+    header {
+        height: 60px;
+        /* Ajuste conforme necessário para a altura desejada */
+    }
+
+    .logo img {
+        width: 40px;
+        padding: 2px;
+        /* Ajuste conforme necessário para a largura desejada */
+    }
+
+    .wppbtn {
+        display: none;
+        margin-top: 30%;
+        position: fixed;
+    }
+
+    .wppbtn button {
+        background: none;
+        border: none;
+    }
+
+    .wppbtn img {
+        width: 50px;
+
+        /* Ajuste conforme necessário para a largura desejada */
+    }
+
+    .menus {
+        display: flex;
+        background-color: rgb(184, 180, 180);
+
+    }
+
+    .menus li {
+        display: flex;
+        float: left;
+        /* Altera para empilhar em telas menores */
+        padding: 10px;
+        /* Ajusta o espaçamento conforme necessário */
+        margin-top: 5px;
+
+    }
+
+    .menus a {
+        font-size: 18px;
+        /* Ajusta o tamanho da fonte para telas menores */
+        text-decoration: none;
+        font-family: Clear Sans;
+        font-size: 10px;
+        color: white;
+    }
+
+    .menus button {
+        background-color: brown;
+        border-radius: 5px;
+        color: white;
+        width: 60px;
+        font-family: Clear Sans;
+        margin-top: 8px;
+
+    }
+
+    #dest {
+        background-color: brown;
+        height: 38px;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+
+    #dest2 {
+        background-color: brown;
+        height: 38px;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+
+    #dest3 {
+        background-color: brown;
+        height: 38px;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+
+    .subsecao1 {
+        display: flex;
+
+    }
+
+    .subsecao1 img {
+        width: 100%;
+        cursor: pointer;
+
+    }
+
+    .subsecao1 h1 {
+        font-family: Lilita One;
+        margin-top: 250px;
+        font-size: 90px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .subsecao2{
+        background-color: brown;
+        padding: 10px;
+        text-align: center;
+    }
+    .subsecao2 h1{
+        color: white;
+    }
+
+    .subsecao2 button{
+        background-color: green;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 15px;
+    }
+    .subsecao2 button a{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.banner2{
+    display: block;
+
+}
+.banner{
+    display: none;
+}
+.mc2{
+    display: none;
+}
+.mc22{
+    display: block;
+    width: 55vh;
+    margin-top: 45px;
+
+}
+
+.subsecao3 img{
+    width: 250px;
+    margin-left: 65px;
+}
+.subsecao3 h1{
+    text-align: center;
+    padding: 5px;
+}
+.subsecao3 a{
+    text-decoration: none;
+    color: brown;
+}
+#thinkingid{
+    display: none;
+}
+
+#thinking1{
+    width: 100%;
+}
+
+#thinking2{
+    width: 100%;
+}
+
+.homem{
+    display: none;
+}
+.perguntas{
+    padding: 20px;
+}
+.perguntas h1{
+    text-align: center;
+    margin-bottom: 35px;
+}
+.perguntas button{
+    background-color: brown;
+    border-radius: 5px;
+    color: white;
+    padding: 15px;
+    width: 100%;
+}
+#oculto{
+    display:none;
+}
+#oculto2{
+    display: none;
+}
+#oculto3{
+    display: none;
+}
+#oculto4{
+    display: none;
+}
+.perguntas i{
+    display: none;
+}
+
+.perguntas button{
+    margin-bottom: 15px;
+}
+.perguntas p{
+    text-align: center;
+    padding: 10px;
+}
+.key{
+    display: none;
+}
+
+.forms h1{
+
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.forms input{
+    width: 250px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 0.5;
+    margin-bottom: 15px;
+    text-align: center;
+   
+}
+.forms{
+   text-align: center;
+}
+
+.forms textarea{
+    width: 250px;
+    height: 100px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 0.5;
+    text-align: center;
+}
+.forms button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 10px;
+}
+fieldset{
+    border: none;
+    background-color: white;
+    padding: 45px;
+    border-radius: 5px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+.juridico{
+    width: 80%;
+    margin-left: 30px;
+}
+.main-sobre h1{
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+}
+.main-sobre .secao1{
+    background-color: brown;
+    color: white;
+    text-align: center;
+    padding: 35px;
+}
+
+.main-sobre .secao1 h2{
+    margin-bottom: 35px;
+}
+
+.main-sobre .secao1 i{
+    padding: 30px;
+}
+.main-sobre .secao1 h3{
+    font-size: 10px;
+    padding: 3px;
+    display: flex;
+    float: left;
+}
+
+.main-sobre .secao2 button{
+    background-color: brown;
+    border-radius: 5px;
+    width: 150px;
+    display: flex;
+    margin-top: 30px;
+    padding: 15px;
+    margin-left: 10%;
+    
+}
+
+.main-sobre .secao2 .botoes a{
+   
+    text-decoration: none;
+    color: white;
+}
+.main-sobre .secao2 .celular{
+    width: 80%;
+    margin-left: 30%;
+}
+
+.main-solutions .solutions-container img{
+    width: 100%;
+}
+.form-solutions h1{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+.form-solutions input{
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.form-solutions textarea{
+    padding: 5px;
+    border-radius: 5px;
+    width: 160px;
+}
+.form-solutions button{
+    background-color: brown;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    width: 100px;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+/* Estilizações adicionais para fora da media query */

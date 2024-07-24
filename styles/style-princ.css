@@ -1,0 +1,366 @@
+.subsecao1 {
+    display: flex;
+}
+
+.subsecao1 img {
+    margin-top: 80px;
+    width: 100%;
+    cursor: pointer;
+
+}
+
+.subsecao1 h1 {
+    font-family: Lilita One;
+    margin-top: 250px;
+    font-size: 90px;
+    text-align: center;
+    padding: 10px;
+}
+
+.subsecao1 button {
+    padding: 15px;
+    background-color: brown;
+    border-radius: 5px;
+    width: 200px;
+    color: white;
+    font-size: 25px;
+
+}
+
+.subsecao1 button:hover {
+    background-color: rgb(110, 51, 51);
+    cursor: pointer;
+}
+
+.subtitulo {
+    text-align: center;
+    padding: 25px;
+}
+
+.subsecao2 {
+    text-align: center;
+    background-color: brown;
+    padding: 15px;
+    font-size: 25px;
+    color: white;
+}
+
+.subsecao2 button {
+    padding: 10px;
+    background-color: green;
+    border-radius: 5px;
+    width: 250px;
+    margin-top: 35px;
+}
+
+.text2 button {
+    margin-top: 5%;
+    width: 280px;
+    height: 50px;
+}
+
+/* Estilo para o botão de especialista */
+@keyframes blink {
+    0% {
+        box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+    }
+
+    50% {
+        box-shadow: 0 0 20px rgba(0, 255, 0, 0.7);
+    }
+
+    100% {
+        box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+    }
+}
+
+.especbtn {
+    background-color: #3498db;
+    /* Cor de fundo azul */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 15px 25px;
+    transition: background-color 0.3s ease;
+    /* Adiciona um efeito de transição suave na cor de fundo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Adiciona uma sombra sutil */
+    margin-bottom: 80px;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+    /* Adicionando a sombra inicial */
+    animation: blink 1s infinite;
+
+}
+
+/* Estilo para o texto dentro do botão */
+.descbtnesp {
+    text-decoration: none;
+    color: white;
+}
+
+/* Efeito de hover para tornar o botão mais interativo */
+.especbtn:hover {
+    background-color: #2980b9;
+    /* Altera a cor de fundo quando o mouse está sobre o botão */
+}
+
+.subsecao2 button:hover {
+    background-color: rgb(44, 142, 44);
+    cursor: pointer;
+}
+
+
+.subsecao3 {
+    display: flex;
+    overflow: hidden;
+
+}
+
+/* Estilo para a div que contém a apresentação */
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    /* Alinha os itens em uma coluna */
+    justify-content: center;
+    /* Centraliza verticalmente */
+    align-items: center;
+    /* Centraliza horizontalmente */
+    text-align: center;
+    /* Alinha o texto ao centro */
+    padding: 20px;
+    /* Adiciona espaçamento interno */
+}
+
+/* Estilo para a imagem dentro da div */
+.mccss {
+    max-width: 100%;
+    /* Garante que a imagem não ultrapasse a largura da div */
+    height: auto;
+    /* Mantém a proporção da imagem */
+}
+
+/* Estilo para o texto */
+.text1 h1 {
+    margin-top: 20px;
+    /* Adiciona espaçamento acima do texto */
+}
+
+
+.subsecao3 h1 {
+    font-size: 45px;
+    padding: 15px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.subsecao3 img {
+    width: 600px;
+}
+
+.subsecao3 a {
+    text-decoration: none;
+    color: brown;
+}
+
+.subsecao4 {
+    display: flex;
+
+}
+
+.subsecao4 img {
+    width: 100%;
+}
+
+
+.subsecao4 h1 {
+    font-size: 40px;
+    padding: 15px;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-bottom: 40px;
+}
+
+
+/* Estilo geral da seção */
+.duvidas {
+    display: flex;
+    background-color: rgba(160, 152, 152, 0.625);
+}
+
+.perguntas {
+    width: 100%;
+    /* Ocupa 100% da largura da tela */
+    box-sizing: border-box;
+    /* Inclui padding e borda na largura total */
+    margin-left: 10%;
+    padding: 15px;
+    text-align: center;
+}
+
+.duvidas button {
+    display: flex;
+    justify-content: space-between;
+    /* Adiciona espaço entre os itens (ícone e texto) */
+    align-items: center;
+    /* Alinha verticalmente os itens ao centro */
+    background-color: brown;
+    color: white;
+    width: 600px;
+    max-width: 700px;
+    /* Limita a largura máxima a 700px */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.duvidas button i {
+    margin-left: auto;
+    /* Move o ícone para a borda direita */
+}
+
+.duvidas p {
+    padding: 50px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.solutions-container {
+    background-color: brown;
+}
+
+.solutions-container img {
+    width: 100%;
+    padding: 0;
+}
+
+.key {
+    margin-top: 10px;
+    margin-left: 90%;
+    display: flex;
+}
+
+/* Estilo específico para a seção de Perguntas Frequentes */
+.perguntas {
+    padding: 40px;
+}
+
+.perguntas h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    padding: 50px;
+}
+
+.button-ext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* Adiciona centralização horizontal dos botões */
+}
+
+.button-ext button {
+    display: flex;
+    justify-content: space-between;
+    /* Adiciona espaço entre os itens (ícone e texto) */
+    align-items: center;
+    /* Alinha verticalmente os itens ao centro */
+    background-color: brown;
+    color: white;
+    width: 600px;
+    max-width: 700px;
+    /* Limita a largura máxima a 700px */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.button-ext button i {
+    margin-left: auto;
+    /* Move o ícone para a borda direita */
+}
+
+p[id^="oculto"] {
+    display: none;
+}
+
+.button-ext.open p[id^="oculto"] {
+    display: block;
+}
+
+/* Estilo para a div que contém a imagem do logo */
+.logo-container {
+    display: flex;
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    background-color: brown;
+    /* Cor de fundo marrom */
+    text-align: center;
+    /* Alinha o conteúdo ao centro */
+    padding: 20px;
+    /* Adiciona algum espaçamento ao redor da logo */
+}
+
+/* Estilo para a imagem do logo */
+.logo-container img {
+    max-width: 100%;
+    /* Garante que a imagem não ultrapasse a largura da div */
+    height: auto;
+    /* Mantém a proporção da imagem */
+}
+
+.thinkingid {
+    cursor: pointer;
+}
+
+.thinkingid-b {
+    display: none;
+}
+
+#bars {
+    display: none;
+}
+
+.icons-princ img {
+    margin-top: 50px;
+    width: 120vh;
+}
+
+/* Block */
+.banner2 {
+    display: none;
+}
+
+.mc22 {
+    display: none;
+}
+
+#oculto {
+    display: none;
+    padding: 50px 250px 50px 250px;
+}
+
+#oculto2 {
+    display: none;
+    padding: 50px 250px 50px 250px;
+}
+
+
+#oculto3 {
+    display: none;
+    padding: 50px 250px 50px 250px;
+}
+
+#oculto4 {
+    display: none;
+    padding: 50px 250px 50px 250px;
+}

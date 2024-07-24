@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área Restrita</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="edit.css" type="text/css" />
+</head>
+
+<body style="background-image: url(../img/textura2.jpg);">
+    <header>
+        <div class="bar-super" style="background-color: rgb(75, 38, 38);">
+            <img src="../img/logo.png" alt="Logo" style="width: 60px; margin-left: 15px">
+
+        </div>
+    </header>
+    <main>
+        <nav class="navbar">
+            <ul>
+                <i class="fa-solid fa-folder" style="color: #ffffff;"></i>
+                <li><button onclick="newemail()"><a href="post.html" style="font-family: Arial, Helvetica, sans-serif;">
+                            + Criar Post</a></button></li>
+                <li><button onclick="emailcad()"><a href="comments.php"
+                            style="font-family: Arial, Helvetica, sans-serif;">Comentários</a></button></li>
+                <li><button onclick=""><a href="arquivo.php"
+                            style="font-family: Arial, Helvetica, sans-serif;">Arquivo</a></button></li>
+                <script>
+                    $(document).ready(function () {
+                        $("#btnAbrirTela").click(function () {
+                            $.ajax({
+                                url: '../index.html',
+                                type: 'GET',
+                                success: function () {
+                                    // Redireciona para a nova tela
+                                    window.location.href = '../index.html';
+                                },
+                                error: function () {
+                                    alert('Erro ao abrir a tela.');
+                                }
+                            });
+                        });
+                    });
+                </script>
+                <!-- <li><button>Excluir E-mail</button></li> -->
+
+            </ul>
+        </nav>
+        <section class="postagem">
+            <form action="novo_post.php" method="post" enctype="multipart/form-data">
+                <label for="titulo">Título do Post:</label>
+                <input type="text" id="titulo" name="titulo" required>
+                <br>
+
+
+
+                <button type="button" onclick="negrito()" style="width: 40px;">N</button>
+                <script>
+                    function negrito() {
+                        var textarea = document.getElementById('conteudo');
+                        var textoAtual = textarea.value;
+                        var textoModificado = textoAtual + "<b></b>";
+                        textarea.value = textoModificado;
+                    }
+                </script>
+                <button type="button" onclick="italico()" style="width: 40px;">I</button>
+                <script>
+                    function italico() {
+                        var textarea = document.getElementById('conteudo');
+                        var textoAtual = textarea.value;
+                        var textoModificado = textoAtual + "<i></i>";
+                        textarea.value = textoModificado;
+                    }
+                </script>
+                <button type="button" onclick="sublinhado()" style="width: 40px;">U</button>
+                <script>
+                    function sublinhado() {
+                        var textarea = document.getElementById('conteudo');
+                        var textoAtual = textarea.value;
+                        var textoModificado = textoAtual + "<u></u>";
+                        textarea.value = textoModificado;
+                    }
+                </script>
+                <button type="button" onclick="paragrafo()" style="width: 40px;">§ </button>
+                <script>
+                    function paragrafo() {
+                        var textarea = document.getElementById('conteudo');
+                        var textoAtual = textarea.value;
+                        var textoModificado = textoAtual + "<p></p>";
+                        textarea.value = textoModificado;
+                    }
+                </script>
+                <button type="button" onclick="list()" style="width: 40px;"><i class="fa-solid fa-list"></i></button>
+                <script>
+                    function list() {
+                        var textarea = document.getElementById('conteudo');
+                        var textoAtual = textarea.value;
+                        var textoModificado = textoAtual +
+                            "<div style=\"text-align: center;\">\n" +
+                            "  <ul style=\"text-align: left; display: inline-block; list-style-position: inside;\">\n" +
+                            "    <li>Item 1</li>\n" +
+                            "    <li>Item 2</li>\n" +
+                            "  </ul>\n" +
+                            "</div>";
+
+                        textarea.value = textoModificado;
+                    }
+                </script>
+                <button type="button" onclick="table()" style="width: 40px;"><i class="fa-solid fa-table"></i></button>
+                <script>
+                    function table() {
+                        var textarea = document.getElementById('conteudo');
+                        var textoAtual = textarea.value;
+
+                        // Add a table with headers and cells
+                        var textoModificado = textoAtual +
+                            "<table style=\"border: 2px solid black; border-collapse: collapse;\">\n" +
+                            "  <tr style=\"background-color: #f2f2f2;\">\n" +
+                            "    <th style=\"border: 1px solid black;\">Header 1</th>\n" +
+                            "    <th style=\"border: 1px solid black;\">Header 2</th>\n" +
+                            "  </tr>\n" +
+                            "  <tr>\n" +
+                            "    <td style=\"border: 1px solid black;\">Row 1, Cell 1</td>\n" +
+                            "    <td style=\"border: 1px solid black;\">Row 1, Cell 2</td>\n" +
+                            "  </tr>\n" +
+                            "  <tr>\n" +
+                            "    <td style=\"border: 1px solid black;\">Row 2, Cell 1</td>\n" +
+                            "    <td style=\"border: 1px solid black;\">Row 2, Cell 2</td>\n" +
+                            "  </tr>\n" +
+                            "</table>";
+
+                        textarea.value = textoModificado;
+                    }
+                </script>
+
+                <label for="datapubli">Data de Publicação:</label>
+                <input type="date" id="datapubli" class="datapubli" name="datapubli" required /><br>
+
+                <input type="file" name="capa"><br>
+
+
+
+                <!-- <label for="conteudo" id="conteudotxt">Conteúdo do Post:</label><br> -->
+                <textarea id="conteudo" name="conteudo" id="conteudo" rows="8" required></textarea>
+                <br>
+                </div>
+                <button type="submit">Publicar Post</button>
+            </form>
+        </section>
+    </main>

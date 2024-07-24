@@ -1,0 +1,187 @@
+/* Estilos para telas menores que 600 pixels */
+@media only screen and (max-width: 600px) {
+
+    html {
+        background-image: url(../img/textura2.jpg);
+    }
+
+    .subsecao1 h1 {
+        margin-top: 150px;
+        font-size: 60px;
+    }
+
+    .subsecao1 button {
+        width: 150px;
+        font-size: 20px;
+    }
+
+    .subsecao2 {
+        background-color: brown;
+        text-align: center;
+
+    }
+
+    .mcrecursos {
+        margin-left: 35%;
+
+    }
+
+    .mccss {
+        width: 100px;
+    }
+
+    .subsecao2 h1 {
+        padding: 10px;
+        color: white;
+    }
+
+
+
+    .subsecao2 button {
+        width: 200px;
+        background-color: green;
+        padding: 10px;
+        border-radius: 8px;
+        margin-top: 20px;
+
+
+    }
+
+    .subsecao2 button a {
+        color: white;
+    }
+
+    .subsecao3 {
+        background-color: brown;
+        padding: 20px;
+    }
+
+    .subsecao3 h1 {
+        font-size: 30px;
+        margin-top: 150px;
+        color: white;
+
+    }
+
+    .subsecao3 a {
+        color: black;
+
+    }
+
+    .subsecao4 h1 {
+        font-size: 30px;
+        margin-top: 70px;
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+
+    .duvidas {
+        display: flex;
+        text-align: center;
+    }
+
+    .duvidas button {
+        width: 80%;
+        max-width: 600px;
+        background-color: brown;
+        border-radius: 8px;
+        color: white;
+        padding: 20px;
+        margin-bottom: 40px;
+    }
+
+    .duvidas button i {
+        display: none;
+    }
+
+    .duvidas h1 {
+        text-align: center;
+    }
+
+    .duvidas p {
+        display: none;
+        padding: 40px;
+    }
+
+    .solutions-container img {
+        width: 100%;
+    }
+
+    .key {
+        margin-left: 5%;
+    }
+
+    .perguntas {
+        padding: 20px;
+    }
+
+    .perguntas h1 {
+        font-size: 24px;
+        padding: 30px;
+    }
+
+    .button-ext button {
+        width: 80%;
+        max-width: 600px;
+    }
+
+    .banner2 {
+        display: block;
+        cursor: pointer;
+
+    }
+
+    .banner {
+        display: none;
+    }
+
+    .mc2 {
+        display: none;
+    }
+
+    .mc22 {
+        display: block;
+    }
+
+    #fadeInImage {
+        width: 40vh;
+
+    }
+
+    .subsecao3 h1 {
+        text-align: center;
+        padding: 20px;
+    }
+
+    @keyframes blink {
+        0% {
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+        }
+
+        50% {
+            box-shadow: 0 0 20px rgba(0, 255, 0, 0.7);
+        }
+
+        100% {
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+        }
+    }
+
+    .especbtn {
+        margin-bottom: 60px;
+        box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+        /* Adicionando a sombra inicial */
+        animation: blink 1s infinite;
+    }
+
+
+
+    .thinkingid {
+        display: none;
+    }
+
+    .thinkingid-b {
+        display: block;
+        cursor: pointer;
+    }
+}

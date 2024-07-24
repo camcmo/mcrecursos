@@ -1,0 +1,221 @@
+/* @font-face {
+    font-family: Clear Sans;
+    src: url(../../../fonts/ClearSans-Bold.ttf);
+} */
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-image: url(/img/textura2.jpg);
+}
+
+li {
+    list-style: none;
+
+}
+main{
+    display: flex;
+}
+button{
+    background-color: brown;
+    color: white;
+    font-family: Clear Sans;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    width: 150px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.navbar{
+    background-color: brown;
+    width: 200px;
+    padding: 15px;
+    height: 700px;
+   
+}
+.navbar i{
+    margin-left: 60px;
+    font-size: 30px;
+    padding: 15px;
+}
+
+li button:hover{
+    background-color: rgb(73, 28, 28);
+    color: black;
+}
+#newemail{
+    font-family: Clear Sans;
+    text-align: center;
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    margin-left: 30%;
+    padding: 15px;
+    margin-top: 150px;
+}
+
+
+#newemail h1{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+#newemail button{
+    margin-top: 25px;
+
+}
+.submit{
+    padding: 5px;
+    width: 100px;
+}
+
+.reset{
+    padding: 5px;
+    width: 100px;
+}
+
+#emailcad{
+    font-family: Clear Sans;
+    text-align: center;
+    background-color: white;
+    width: 400px;
+    border-radius: 5px;
+    margin-left: 30%;
+    padding: 15px;
+    height: 400px;
+    margin-top: 150px;
+}
+.nova-guia{
+    font-family: Clear Sans;
+    text-align: center;
+    margin-top: 15%;
+}
+
+#emailList button{
+    height: 20px;
+    width: 60px;
+    padding: 0;
+}
+/* newemail */
+
+.newemail{
+    display: flex; 
+}
+
+.newemail h2{
+    font-family: Clear Sans;
+}
+
+.newemail label{
+    font-family: Clear Sans;
+}
+
+.newemail button{
+    font-family: Clear Sans;
+}
+.edicao{
+    display: block;
+    background-color: white;
+    height: 200px;
+    border-radius: 5px;
+    margin-left: 30%;
+    margin-top:10%;
+    text-align: center;
+    width: 400px;
+    padding: 15px;
+}
+
+/* Estilo do Editor */
+
+.postagem label{
+    font-family: Clear Sans;
+    font-size: 15px;
+    padding: 10px;
+}
+.postagem{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.postagem input{
+    width: 600px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.postagem textarea{
+    width: 800px;
+    height: 400px;
+    border-radius: 5px;
+}
+
+#titulo{
+    margin-bottom: 25px;
+}
+#conteudotxt{
+    margin-top: 20px;
+    font-size: 30px;
+
+}
+#conteudo{
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+.editor-menu button{
+    background-color: black;
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+.editor-menu{
+ 
+}
+#capa{
+    font-size: 15px;
+}
+
+#datapubli{
+    width: 150px;
+}
+
+#tag{
+    width: 20px;
+}
+
+.register h1{
+    font-family: Clear Sans;
+    font-size: 35px;
+
+}
+.register{
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+.comments h1{
+    font-family: Clear Sans;
+    font-size: 35px;
+    
+}
+.comments{
+    margin-left: 30%;
+    margin-top: 5%;
+}
+.arquive h1{
+    font-family: Clear Sans;
+    font-size: 35px;
+}
+
+.arquive{
+    margin-left: 30%;
+    margin-top: 5%;
+}
+

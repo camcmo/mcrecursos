@@ -1,0 +1,31 @@
+/* Estilos para telas menores que 600 pixels */
+@media only screen and (max-width: 600px) {
+    .logo-container{
+        background-color: brown;
+       
+    }
+    .logo-container img{
+        margin-left: 40%;
+        margin-right: auto;
+        
+    }
+
+    .footer-mc{
+        background-color: brown;
+        color: white;
+        text-align: center;
+    }
+
+    .footer-mc h2{
+        padding: 20px;
+    }
+    .footer-mc li{
+        list-style: none;
+    }
+    .footer-mc a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        
+        
+    }
+}

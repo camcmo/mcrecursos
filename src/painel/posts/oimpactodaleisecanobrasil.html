@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' href='../../styles/mediaquery-basic-footer.css'>
+    <link rel='stylesheet' href='../../styles/mediaquery-basic.css'>
+    <link rel='stylesheet' href='../../styles/basic.css' media='screen and (min-width: 600px)'>
+    <link rel='stylesheet' href='../../styles/reset.css'>
+
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css'
+    integrity='sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=='
+    crossorigin='anonymous' referrerpolicy='no-referrer' />
+
+    <link rel='stylesheet' href='../../styles/media-block.css'>
+    <link rel='stylesheet' href='../../styles/style-blog.css'>
+    <link rel='stylesheet' href='../../styles/newpost.css'>
+    <title>O IMPACTO DA LEI SECA NO BRASIL</title>
+    <link rel='preconnect' href='https://fonts.googleapis.com'>
+    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+    <link href='https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Roboto:wght@500&family=Sora&display=swap' rel='stylesheet'>
+</head>
+
+<body>
+<header>
+<nav class='menus'>
+  <div class='logo'>
+    <a href='../../index.html'><img src='../../img/logo.png' id='logopng'>
+    </a>
+    <div class='icons'>
+      <span class='fa-solid fa-bars' id='bars'></span>
+    </div>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        var barsIcon = document.getElementById('bars');
+        var menusUl = document.querySelector('.menusul');
+
+        barsIcon.addEventListener('click', function () {
+          // Verifica se o display atual é 'none' e altera para 'block', ou vice-versa
+          menusUl.style.display = menusUl.style.display === 'none' || menusUl.style.display === '' ? 'block' : 'none';
+        });
+      });
+    </script>
+
+  </div>
+
+
+  <ul class='menusul'>
+    <li id='dest'><a href='../../index.html'>INÍCIO</a></li>
+    <li><a href='../../src/sobre.html' id='it'>SOBRE</a></li>
+    <li><a href='../../src/solucoes.html' id='it'>SOLUÇÕES</a></li>
+    <button type='button' onclick='blognovo()' class='blogbtn'>BLOG</button>
+    <script>
+      function blognovo() {
+        window.location.href = 'src/blog.php';
+      }
+
+    </script>
+
+  </ul>
+
+</nav>
+
+</header>
+<main class='post-novo'>
+    <h1 id='title-css'>O IMPACTO DA LEI SECA NO BRASIL</h1>
+    <div id='data-publi'>Data de Publicação: 2024-02-15</div>
+    <img src='../posts/15-min-lei-seca-768x512.jpg' id='capa'>
+    <div id='conteudo-css'><b>Impacto da Lei Seca na Redução de Acidentes</b><p>Desde sua implementação, a Lei Seca tem sido uma medida crucial para reduzir os índices de acidentes causados pela combinação de álcool e direção. Estudos indicam uma significativa diminuição nos casos de colisões e fatalidades, graças à proibição do consumo de álcool por motoristas e às fiscalizações mais rigorosas.</p><b>O Impacto das Penalidades no Trânsito Brasileiro</b><p>As penalidades, como multas e suspensão da CNH, desempenham um papel importante na promoção da segurança viária no Brasil. Multas expressivas, como a estipulada em R$ 2.934,70 para casos de embriaguez ao volante, refletem a seriedade das normas de trânsito e ajudam a coibir infrações.</p><b>A Recusa ao Bafômetro e as Autuações Incorretas</b><p>Em blitz, muitos motoristas optam por não soprar o bafômetro, aceitando apenas a autuação pela infração de recusa. No entanto, é comum que autuações sejam feitas de maneira incorreta, seja por falhas nos equipamentos eletrônicos, seja pela interpretação dos agentes de trânsito. Isso levanta questões sobre a eficácia e justiça das autuações, exigindo revisão constante dos métodos de fiscalização.</p><b>Desafios e Aprimoramentos na Aplicação da Lei Seca</b><p>A aplicação da Lei Seca enfrenta desafios complexos, como a capacitação dos agentes, a manutenção dos equipamentos de medição e a garantia dos direitos individuais durante as abordagens. É essencial encontrar um equilíbrio entre a aplicação da lei e o respeito aos direitos dos cidadãos, buscando constantemente melhorias nos métodos de fiscalização e punição no trânsito brasileiro.Cada um desses aspectos desempenha um papel crucial na eficácia e na justiça da Lei Seca e das medidas relacionadas à segurança viária no Brasil.</p><b>Está passando por essa situação? Não perca a chance de recorrer e garanta já o seu direito</b></div>
+    <div class='custom-container'>
+        <i class='fas fa-user'></i> Autor: MC Recursos - Lagoa da Prata<br>
+        Serviço especializado de Direito no Trânsito
+    </div>
+    <div class='contact'>
+        <h2>Você tem uma multa e quer evitar perder sua habilitação?</h2>
+        <p><a href='https://wa.me/5537988585482?text=Ol%C3%A1%21+Gostaria+de+saber+mais+sobre+a+MC+Recursos%21' id='especialist'>Clique aqui e fale com um especialista!</a></p>
+    </div>
+    <div class='logo-container'>
+        <img src='../../img/logo.png' alt='Logo'>
+    </div>
+
+    <!-- New div -->
+    <div class='footer-mc'>
+
+        <div>
+
+            <h2>Onde Estamos</h2>
+            <div>
+                <h5>R. Ângelo Perilo, 55 - Centro</h5>
+                <h5>Lagoa da Prata - MG, 35590-048</h5>
+            </div>
+        </div>
+        
+        <div>
+            <h2>Redes Sociais</h2>
+            <ul>
+                <li><a href='https://www.facebook.com' target='_blank'>Facebook</a></li>
+                <li><a href='https://www.instagram.com' target='_blank'>Instagram</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2><a href='../../politic.html'>Política de Privacidade</a></h2>
+            <!-- Adicione informações sobre a política de privacidade -->
+        </div>
+        
+    </div>
+</main>
+<footer>
+<p>2024 © MC Recursos</p>
+</footer>
+</body>
+</html>

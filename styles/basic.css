@@ -1,0 +1,273 @@
+@font-face {
+    font-family: Clear Sans;
+    src: url(./assets/ClearSans-Regular.ttf);
+}
+
+
+header{
+    position: fixed; 
+    width: 100%;
+    background-color: rgb(69, 64, 64);
+    height: 85px;
+}
+html{
+    background-image: url(../img/textura2.jpg);
+}
+*{
+
+    font-family: Clear Sans;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.logo img{
+    width: 90px;
+    padding: 5px;
+}
+.wppbtn{
+    position: fixed;
+    margin-top: 38%;
+    
+}
+.wppbtn img{
+    width: 100vh;
+}
+
+.wppbtn button{
+    background: none;
+    border: none;
+}
+
+#imgbtnwpp{
+    width: 40%;
+}
+
+
+/* Menu */
+.menus{
+    display: flex;
+
+}
+#dest{
+    background-color: brown;
+    height: 68px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+#dest2{
+    background-color: brown;
+    height: 60px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+#dest3{
+    background-color: brown;
+    height: 68px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.menusul{
+    margin-left: 50%;
+}
+.menus li {
+    display: inline-block;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.menus a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.menus a:hover{
+    color:  rgb(110, 122, 97);
+}
+
+.menus button{
+    padding: 15px;
+    background-color: brown;
+    border-radius: 5px;
+    width: 150px;
+    color: white;
+}
+
+.menus button:hover{
+    background-color: rgb(121, 41, 41) ;
+    cursor: pointer;
+}
+
+.menusul i{
+    padding: 15px;
+    font-size: 18px;
+}
+
+.menusul i:hover{
+    background-color: rgb(80, 75, 75);
+    border-radius: 100%;
+}
+/* Estilos para o container principal do footer */
+.footer-mc {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: brown;
+    color: white;
+    padding: 30px;
+    padding-left: 50px; /* Adiciona mais espaço à esquerda */
+}
+
+/* Estilos para as seções individuais do footer */
+/* Estilos para as seções individuais do footer */
+.footer-mc div {
+    flex: 1;
+    margin: 10px;
+    margin-left: 20px; /* Adiciona mais espaço à esquerda nas seções individuais */
+}
+
+/* Estilos para os títulos das seções */
+.footer-mc h2 {
+    text-align: center;
+    margin-bottom: 10px; /* Adiciona espaço abaixo do h2 */
+}
+/* Estilos para os títulos das seções */
+.footer-mc h2 {
+    text-align: center;
+}
+
+/* Estilos para as informações de endereço */
+.footer-mc div:nth-child(1) h5 {
+    margin: 0;
+}
+
+/* Estilos para a lista de horários de atendimento */
+.footer-mc div:nth-child(2) ul,
+.footer-mc div:nth-child(3) ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilos para os itens da lista de horários de atendimento */
+.footer-mc div:nth-child(2) li,
+.footer-mc div:nth-child(3) li {
+    background-color: rgb(106, 29, 29); /* Cor de fundo verde */
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+/* Estilos para os links de redes sociais */
+.footer-mc div:nth-child(3) a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Estilos para o link da área restrita */
+.footer-mc .key {
+    text-align: center;
+}
+
+.footer-mc .key a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-mc .key i {
+    color: rgb(255, 255, 255);
+    padding-right: 10px;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: brown;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+/* Estilo para a div que contém a imagem do logo */
+.logo-container {
+    background-color: brown; /* Cor de fundo marrom */
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+    padding: 20px; /* Adiciona algum espaçamento ao redor da logo */
+}
+
+/* Estilo para a imagem do logo */
+.logo-container img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da div */
+    height: auto; /* Mantém a proporção da imagem */
+}
+/* Formulários */
+/* Restante do seu CSS... */
+
+/* Seu CSS anterior... */
+
+/* Estilo para os campos de entrada de texto */
+.form-solutions input,
+.form-solutions textarea {
+    width: 70%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px auto;
+    box-sizing: border-box;
+    border: 1px solid #ccc; /* Adiciona uma borda */
+    border-radius: 8px; /* Arredonda as bordas */
+    background-color: #fff; /* Fundo branco */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efeito de luz */
+}
+
+/* Estilo para o botão de envio */
+.form-solutions button {
+    width: 70%;
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 15px; /* Adiciona algum preenchimento ao botão */
+    border: none;
+    border-radius: 8px;
+    background-color: brown; /* Cor de fundo marrom */
+    color: white; /* Cor do texto branco */
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efeito de luz */
+}
+
+/* Estilo para o campo de mensagem */
+.form-solutions textarea {
+    resize: vertical;
+}
+
+/* Estilo para o formulário */
+.form-solutions {
+    width: 70%;
+    max-width: 500px;
+    margin: 50px auto; /* Centraliza o formulário verticalmente e adiciona margem superior e inferior */
+    padding: 20px; /* Adiciona algum espaço interno ao formulário */
+    background-color: #f8f8f8; /* Fundo levemente esbranquiçado */
+    border-radius: 10px; /* Arredonda as bordas do formulário */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Efeito de sombra */
+    box-sizing: border-box;
+    border: none; /* Remove a borda do formulário */
+}
+/* Seu CSS anterior... */
+
+/* Estilo para o formulário */
+.form-solutions fieldset {
+    border: none; /* Remove a borda do fieldset */
+    text-align: center;
+}
+
+/* Restante do seu CSS... */
+/* Media Query */
+
+#bars{
+    display: none;
+}
+
+/* Soluções */
+.banner-img{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+

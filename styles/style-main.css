@@ -1,0 +1,126 @@
+/* Sobre */
+/* Estilo para a seção de introdução */
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown; /* Adicione a cor de fundo desejada */
+    color: white; /* Cor do texto */
+    padding: 50px;
+}
+
+
+.intro img.juridico {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 50%;
+
+ 
+}
+
+.introtxt {
+    padding: 20px;
+    text-align: center;
+}
+
+.introtxt h1 {
+    font-size: 24px; /* Tamanho da fonte */
+    line-height: 1.5; /* Espaçamento entre linhas */
+}
+
+
+
+/* Estilo para a seção 1 (secao1) */
+.secao1 {
+    background-color: #333; /* Adiciona um fundo cinza escuro */
+    color: #fff; /* Define a cor do texto como branca */
+    padding: 40px 20px; /* Adiciona espaçamento interno à div */
+    text-align: center;
+}
+
+/* Estilo para o título da seção 1 (h1) */
+
+/* Estilo para o título principal da seção 1 (h1) */
+.secao1 h1 {
+    font-size: 36px; /* Tamanho maior para destacar o título */
+    font-weight: bold; /* Texto em negrito para maior destaque */
+    margin-bottom: 20px; /* Adiciona espaçamento abaixo do título */
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+    letter-spacing: 2px; /* Adiciona espaçamento entre as letras */
+}
+
+/* Estilo para o título menor da seção 1 (h2) */
+.secao1 h2 {
+    font-size: 24px;
+    margin-top: 20px; /* Adiciona espaçamento acima do título */
+    margin-bottom: 30px; /* Adiciona espaçamento abaixo do título */
+}
+
+/* Estilo para o grupo de ícones */
+.icon-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Permite que os grupos fiquem em várias linhas se não couberem em uma única linha */
+}
+
+/* Estilo para cada conjunto de ícone e texto */
+.icon-wrapper {
+    margin: 20px; /* Espaço entre os conjuntos (ajuste conforme necessário) */
+    text-align: center;
+}
+
+/* Estilo para os ícones */
+.icon-wrapper i {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+/* Estilo para os textos abaixo dos ícones */
+.icon-wrapper h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px; /* Adiciona mais espaçamento entre as frases */
+}
+/* Estilos para a seção 2 (secao2) */
+.secao2 {
+    background-color: #333; /* Adiciona um fundo cinza escuro */
+    color: #fff; /* Define a cor do texto como branca */
+    padding: 40px 20px; /* Adiciona espaçamento interno à div */
+    text-align: center;
+}
+
+/* Estilo para os botões na seção 2 */
+.botoes button {
+    background-color: brown; /* Cor de fundo dos botões */
+    color: #fff; /* Cor do texto dos botões */
+    padding: 20px 40px; /* Aumenta o espaçamento interno dos botões */
+    margin: 10px; /* Adiciona espaçamento entre os botões */
+    border: none; /* Remove a borda dos botões */
+    border-radius: 5px; /* Adiciona bordas arredondadas aos botões */
+    text-decoration: none; /* Remove a decoração de texto */
+    font-size: 20px; /* Aumenta o tamanho da fonte */
+    font-weight: bold; /* Deixa o texto em negrito */
+    box-shadow: 0 5px 15px rgba(165, 42, 42, 0.5); /* Adiciona uma sombra leve */
+}
+
+/* Adiciona um efeito de hover para os botões */
+.botoes button:hover {
+    background-color: rgb(121, 41, 41); /* Altera a cor de fundo ao passar o mouse */
+}
+
+/* Estilo para os links dentro dos botões */
+.botoes button a {
+    text-decoration: none; /* Remove a decoração de texto */
+    color: #fff; /* Define a cor da fonte como branca */
+}
+.juridico {
+    opacity: 0;
+    position: relative;
+    z-index: 0;
+  
+   
+  }
+  #bars{
+    display: none;
+  }

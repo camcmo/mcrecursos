@@ -1,0 +1,29 @@
+/* reset.css */
+
+/* Zerar margens e preenchimentos */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+
+/* Zerar estilos de lista */
+ul, ol {
+    list-style: none;
+}
+
+/* Zerar estilos de hiperlinks */
+a {
+    text-decoration: none;
+}
+
+/* Zerar estilos de formulários */
+button, input, select, textarea {
+    margin: 0;
+}
+
+/* Zerar estilos de elementos embutidos */
+img, video {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}

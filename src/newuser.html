@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <script src="../myscript.js"></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <link rel="stylesheet" href="login.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>MC Recursos</title>
+  <body>
+    <form action="newuser.php" method="post" class="newuser">
+        <fieldset>
+            <input type="text" name="user" class="user" id="user" placeholder="Crie um usuário" /><br>
+            <input type="password" name="password" class="password" id="password" placeholder="Crie uma senha" /><br>
+            <input type="password" name="passwordadm" class="passwordadm" id="passwordadm" placeholder="Digite a senha de liberação" /><br>
+            <button type="submit" class="submit" id="submit" name="registrar">Registrar</button>
+            <!-- <button type="button" class="newuser" onclick="newuser()">Cadastrar</button><br> -->
+            <!-- <a href="restaura.html" class="restaura">Esqueci minha senha</a> -->
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

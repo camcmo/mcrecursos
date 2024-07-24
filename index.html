@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-WCRPHKRC');</script>
+  <!-- End Google Tag Manager -->
+  <meta charset="utf-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Sora&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./styles/mediaquery-basic.css">
+  <link rel="stylesheet" href="./styles/mediaquery-basic-footer.css">
+  <link rel="stylesheet" href="./styles/mediaquery-princ.css">
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="stylesheet" href="./styles/basic.css" media="screen and (min-width: 600px)">
+  <link rel="stylesheet" href="./styles/style-princ.css" media="screen and (min-width: 600px)">
+  <link rel="stylesheet" href="efects.css">
+
+
+  <title>MC Recursos</title>
+
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WCRPHKRC" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+
+  <div id="root"></div>
+
+  <head>
+    <script src="./myscript.js"></script>
+    <title>MC Recursos</title>
+    </script>
+  </head>
+
+  <body class="body-desk">
+    <!--<button type="button" onclick="retract()" class="buttonteste"></button>-->
+
+
+    <header>
+      <nav class="menus">
+        <div class="logo">
+          <a href="index.html"><img src="img/logo.png" id="logopng">
+          </a>
+          <div class="icons">
+            <span class="fa-solid fa-bars" id="bars"></span>
+          </div>
+          <script>
+            document.addEventListener('DOMContentLoaded', function () {
+              var barsIcon = document.getElementById('bars');
+              var menusUl = document.querySelector('.menusul');
+
+              barsIcon.addEventListener('click', function () {
+                // Verifica se o display atual é 'none' e altera para 'block', ou vice-versa
+                menusUl.style.display = menusUl.style.display === 'none' || menusUl.style.display === '' ? 'block' : 'none';
+              });
+            });
+          </script>
+
+        </div>
+
+
+        <ul class="menusul">
+          <li id="dest"><a href="index.html">INÍCIO</a></li>
+          <li><a href="src/sobre.html" id="it">SOBRE</a></li>
+          <!-- <li><a href="src/docs/resolucao.pdf" id="it">CONTRAN</a></li> -->
+          <li><a href="src/solucoes.html" id="it">SOLUÇÕES</a></li>
+          <button type="button" onclick="blognovo()" class="blogbtn">BLOG</button>
+          <script>
+            function blognovo() {
+              window.location.href = "src/blog.php";
+            }
+
+          </script>
+
+        </ul>
+
+      </nav>
+
+    </header>
+    <div class="wppbtn">
+      <button class="BtnWpp"><a
+          href="https://wa.me/5537988585482?text=Ol%C3%A1%21+Gostaria+de+saber+mais+sobre+a+MC+Recursos%21"><img
+            src="img/wpp.png" id="imgbtnwpp"></a></button>
+    </div>
+
+    <main>
+      <section class="subsecao1">
+        <img src="img/banner.png" class="banner" onclick="banner()" />
+        <img src="img/banner2.png" alt="" class="banner2" onclick="banner()" />
+
+      </section>
+
+
+      <section class="subsecao2">
+        <div class="apresentacao">
+          <div class="mcrecursos"><img src="img/logo.png" class="mccss"></div>
+          <div class="icons-princ">
+            <img src="img/mc2.png" id="mc2" class="mc2" />
+            <img src="img/mc2.2.png" id="mc22" class="mc22" />
+          </div>
+          <div class="text1">
+
+            <h1>Somos o maior site em Direito de Trânsito do Brasil!</h1>
+          </div>
+
+        </div>
+        <div class="text2">
+          <h1>Faça agora uma CONSULTA GRATUITA!</h1>
+          <button class="especbtn">
+            <a href="./src/forms.html" class="descbtnesp">RECORRER MULTA AGORA</a>
+
+          </button>
+
+        </div>
+
+      </section>
+
+      <section class="subsecao3">
+        <div class="descsuperior">
+          <img src="img/celular.png" class="image" id="fadeInImage">
+        </div>
+        <h1><a href="./src/solucoes.html">Soluções</a> que cabem na palma da sua mão!</h1>
+
+      </section>
+
+
+      <section class="subsecao4">
+
+        <div class="thinking">
+          <a
+            href="https://api.whatsapp.com/send/?phone=5537988585482&text=Ol%C3%A1%21+Gostaria+de+saber+mais+sobre+a+MC+Recursos%21&type=phone_number&app_absent=0"><img
+              src="img/thinking.png" class="thinkingid" id="thinkingid"></a>
+          <a
+            href="https://api.whatsapp.com/send/?phone=5537988585482&text=Ol%C3%A1%21+Gostaria+de+saber+mais+sobre+a+MC+Recursos%21&type=phone_number&app_absent=0"><img
+              src="img/bafometro.png" class="thinkingid-b" id="thinkingid-b"></a>
+        </div>
+      </section>
+      <section class="duvidas">
+        <div class="imagem">
+        </div>
+        <div class="perguntas">
+          <h1>Perguntas Frequentes</h1>
+          <div class="button-ext">
+            
+            <div class="align2">
+              <button type="button" class="question" onclick="block2();">Recebi uma multa de forma indevida, o que devo
+                fazer?<i class="fa-solid fa-plus" style="color: #ffffff;"></i></button><br>
+            </div>
+            <p id="oculto2">Ao receber uma multa indevida você deve recorrer à defesa prévia, utilizando todos os meios
+              de
+              comprovação de que houve erros na autuação. Mesmo
+              que a defesa prévia seja negada, é possível entrar com um Recurso na JARI em primeira instância e no
+              Cetran
+              em segunda instância.
+            </p>
+            <div class="align3">
+              <button type="button" class="question" onclick="block3();">Fui pego(a) na Lei Seca, o que devo fazer?<i
+                  class="fa-solid fa-plus" style="color: #ffffff;"></i></button><br>
+            </div>
+            <p id="oculto3">O recurso da Lei Seca é elaborado por nossos especialistas a fim de garantir cancelamento da
+              pontuação e arquivamento
+              do processo administrativo pra você não ter seu direito de dirigir suspenso!
+            </p>
+            <div class="align4">
+              <button type="button" class="question" onclick="block4();">Tomei multa na Permissão, posso recorrer? <i
+                  class="fa-solid fa-plus" style="color: #ffffff;"></i></button>
+            </div>
+            <p id="oculto4">SIM! Com nossos recursos especializados garantimos o cancelamento da pontuação de qualquer
+              multa para você não perder sua permissão
+              e continuar dirigindo.
+            </p><br>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+    <div class="logo-container">
+      <img src="./img/logo.png" alt="Logo">
+    </div>
+
+
+    <div class="footer-mc">
+      <!-- Onde Estamos -->
+      <div>
+        <h2>Onde Estamos</h2>
+        <div>
+          <h5>R. Ângelo Perilo, 55 - Centro</h5>
+          <h5>Lagoa da Prata - MG, 35590-048</h5>
+        </div>
+      </div>
+
+    
+      <div>
+        <h2>Redes Sociais</h2>
+        <ul>
+          <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+          <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+        </ul>
+      </div>
+
+     
+      <div>
+        <h2><a href="./politic.html">Política de Privacidade</a></h2>
+      </div>
+
+      <!-- Área Restrita -->
+      <div class="key">
+        <a href="src/login.html"><i class="fa-solid fa-key"></i></a>
+        <h4>Área Restrita</h4>
+      </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+      <p>2024 © MC Recursos</p>
+    </footer>
+
+  </body>
+
+</html>

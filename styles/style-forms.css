@@ -1,0 +1,75 @@
+html {
+    background-image: url(../img/textura2.jpg);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.forms {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.forms fieldset {
+    border: none; /* Remove a borda do fieldset */
+}
+
+#forms-act {
+    text-align: center;
+}
+
+#forms-act h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.forms input,
+.forms textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.forms button {
+    background-color: brown; /* Altera a cor do botão para brown */
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.forms button:hover {
+    background-color: #8b4513; /* Altera a cor do hover para uma tonalidade mais escura de brown */
+}
+
+/* Adicione estilos para tornar o formulário responsivo em telas pequenas */
+@media screen and (max-width: 769px) {
+    .forms {
+        margin: 20px auto; /* Adiciona margem superior e inferior e centraliza na tela */
+        padding: 15px;
+    }
+
+    .forms input,
+    .forms textarea {
+        margin-bottom: 10px;
+    }
+
+    .forms button {
+        padding: 12px;
+    }
+}

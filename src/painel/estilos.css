@@ -1,0 +1,231 @@
+
+@font-face {
+    font-family: Clear Sans;
+    src: url(../fonts/ClearSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lilita One;
+    src: url(LilitaOne-Regular.ttf);
+}
+
+*{
+
+    font-family: Clear Sans;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header{
+    position: fixed; 
+    width: 100%;
+    background-color: rgb(184, 180, 180);
+    height: 85px;
+}
+body {
+    background: url("../img/textura2.jpg");
+}
+
+.custom-container {
+    background: url("../img/textura2.jpg");
+    border-radius: 8px;
+    width: 600px;
+    height: 150px;
+    padding: 15px;
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+}
+
+.custom-container i {
+    font-size: 16px;
+}
+
+h1 {
+    color: brown;
+    font-size: 48px;
+    text-align: center;
+    font-family: Sora;
+    margin-top: 80px;
+}
+
+div {
+    font-family: "Sora", sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+img {
+    width: 100vh;
+    margin-left: 30%;
+    margin-top: 8%;
+}
+
+div {
+    font-family: "Sora", sans-serif;
+    font-size: 22px;
+    padding: 80px;
+    text-align: center;
+}
+
+.div-custom-container {
+    font-family: "Sora", sans-serif;
+    font-size: 16px;
+    text-align: left;
+    background-color: brown;
+}
+
+.div-custom-container img {
+    margin-left: 45%;
+    width: 150px;
+}
+
+.footer-mc {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: brown;
+    color: white;
+    padding: 30px;
+    font-family: Arial;
+}
+
+.footer-mc h2 {
+    font-size: 25px;
+    padding-left: 85px;
+    padding-right: 85px;
+}
+
+.footer-mc div {
+    text-align: center;
+    padding: 25px;
+}
+
+.footer-mc ul {
+    list-style: none;
+    text-align: center;
+    padding: 25px;
+}
+
+.footer-mc p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25px;
+    text-align: center;
+}
+/* .logo img{
+    width: 200px;
+
+}
+.logo{
+    background-color: brown;
+} */
+/* Menu */
+@font-face {
+    font-family: Clear Sans;
+    src: url(ClearSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lilita One;
+    src: url(LilitaOne-Regular.ttf);
+}
+/* html{
+    background-image: url(./textura2.jpg);
+} */
+*{
+
+    font-family: Clear Sans;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header{
+    position: fixed; 
+    width: 100%;
+    background-color: rgb(184, 180, 180);
+    height: 85px;
+}
+
+.logo img{
+    width: 90px;
+    
+
+}
+.wppbtn{
+    position: fixed;
+    margin-top: 38%;
+}
+.wppbtn img{
+    width: 100px;
+}
+
+.wppbtn button{
+    background: none;
+    border: none;
+}
+
+.menus{
+    display: flex;
+
+
+}
+#dest{
+    background-color: brown;
+    height: 68px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+#dest2{
+    background-color: brown;
+    height: 60px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+#dest3{
+    background-color: brown;
+    height: 68px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.menusul{
+    margin-left: 50%;
+}
+.menus li {
+    display: inline-block;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.menus a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.menus a:hover{
+    color:  rgb(77, 73, 73);;
+}
+
+.menus button{
+    padding: 15px;
+    background-color: brown;
+    border-radius: 5px;
+    width: 150px;
+    color: white;
+}
+
+.menus button:hover{
+    background-color: rgb(121, 41, 41) ;
+    cursor: pointer;
+}
+
+.menusul i{
+    padding: 15px;
+    font-size: 18px;
+}
+
+.menusul i:hover{
+    background-color: rgb(80, 75, 75);
+    border-radius: 100%;
+}

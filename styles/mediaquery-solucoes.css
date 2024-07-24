@@ -1,0 +1,32 @@
+@media only screen and (max-width: 600px) {
+
+
+    .banner-img {
+        display: none;
+        cursor: pointer;
+    }
+
+    #banner-alt{
+        display: block;
+        width: 100%;
+    }
+
+    .solutions-container{
+        margin-top: 100px;
+    }
+    .form-solutions fieldset{
+        background-color: white;
+        padding: 40px;
+        border-radius: 8px;
+        text-align: center;
+
+    }
+    .form-solutions{
+        text-align: center;
+        margin-left: 10px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    
+}
+

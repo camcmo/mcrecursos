@@ -1,0 +1,97 @@
+@font-face {
+    font-family: Clear Sans;
+    src: url("../fonts/ClearSans-Regular.ttf");
+}
+
+
+#title-css{
+    padding-top: 150px;
+    color: brown;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 80px;
+
+}
+
+#data-publi{
+    text-align: center;
+    padding: 30px;
+}
+
+#capa{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 45px;
+}
+
+#conteudo-css{
+    padding: 140px;
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+#conteudo-css p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#conteudo-css b{
+    margin-top: 40px;
+}
+
+#conteudo-css u{
+    margin-top: 40px;
+}
+#conteudo-css i{
+    margin-top: 40px;
+}
+
+.custom-container{
+    background-color: rgb(190, 188, 188);
+    width: 600px;
+    padding: 35px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+h2{
+    text-align: center;
+}
+
+.contact a{
+    color: brown;
+    font-size: 22px;
+    margin-left: 40%;
+}
+.logo-container img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 600px) {
+
+    html{
+        background-image: url(../img/textura2.jpg);
+    }
+    .custom-container{
+        width: 250px;
+    }
+    #conteudo-css{
+        padding: 10px;
+    }
+    #especialist{
+        font-size: 15px;
+        margin: 0;
+        
+    }
+    .contact{
+        text-align: center;
+        padding: 40px;
+    }
+}
+
+/* Rodapé */

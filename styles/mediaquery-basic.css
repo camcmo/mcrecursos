@@ -1,0 +1,153 @@
+/* Estilos para telas menores que 600 pixels */
+@media only screen and (max-width: 600px) {
+
+    @font-face {
+        font-family: Clear Sans;
+        src: url(../fonts/ClearSans-Regular.ttf);
+    }
+
+    * {
+        font-family: Clear Sans;
+    }
+
+    /* Estilo base para o header */
+    header {
+        height: auto;
+        background-color: rgb(69, 64, 64);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        /* Coloca o header no topo da página */
+        left: 0;
+        right: 0;
+        padding: 15px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Estilo para o logotipo */
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+
+    #logopng {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Estilo para o contêiner dos ícones (bars) */
+    .icons {
+        display: flex;
+        align-items: center;
+        
+        
+    }
+
+    /* Estilo para o ícone de barras (menu móvel) */
+    #bars {
+        color: white;
+        cursor: pointer;
+        margin-left: 900%;
+        font-size: 25px;
+        display: block;
+        
+        
+        /* Move o ícone para a extremidade direita */
+ 
+    }
+
+     .logo img {
+        width: 60px;
+    }
+
+    .wppbtn {
+        margin-top: 20%;
+    }
+
+    .wppbtn img {
+        width: 80px;
+    }
+
+    .wppbtn button {
+        padding: 10px;
+        width: 120px;
+        background: none;
+        border: none;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
+
+    .menusul {
+        margin-left: 0;
+        text-align: center;
+        display: none;
+    }
+
+    .menus {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        /* Alinha o menu à esquerda */
+        align-items: center;
+        list-style: none;
+        padding: 0;
+    }
+
+    .menus li {
+        display: block;
+        padding: 10px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .menus li a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .menus button {
+        background-color: brown;
+        color: white;
+        border-radius: 8px;
+        padding: 15px;
+        width: 100px;
+
+    }
+
+    .footer-mc {
+        padding: 20px;
+        padding-left: 20px;
+    }
+
+    .footer-mc div {
+        flex: 1;
+        margin: 10px;
+        margin-left: 0;
+    }
+
+    .form-solutions input,
+    .form-solutions textarea {
+        width: 100%;
+        max-width: none;
+    }
+
+    .form-solutions button {
+        width: 100%;
+        max-width: none;
+    }
+
+    .form-solutions {
+        width: 90%;
+    }
+
+    footer{
+        background-color: brown;
+        padding: 15px;
+        color: white;
+        text-align: center;
+    }
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área Restrita</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="edit.css" type="text/css" />
+</head>
+
+<body>
+    <main>
+        <nav class="navbar">
+            <ul>
+                <i class="fa-solid fa-gear" style="color: #ffffff;"></i>
+                <li><button onclick="newemail()"><a href="newemail.php">Cadastrar Novo</a></button></li>
+                <li><button onclick="emailcad()"><a href="emails.html">Emails Cadastrados</a></button></li>
+                <i class="fa-solid fa-xmark" style="color: #ffffff;" onclick="retorne()" id="btnAbrirTela"></i>
+                <script>
+                    $(document).ready(function() {
+                        $("#btnAbrirTela").click(function() {
+                            $.ajax({
+                                url: '../index.php',
+                                type: 'GET',
+                                success: function() {
+                                    // Redireciona para a nova tela
+                                    window.location.href = '../index.html';
+                                },
+                                error: function() {
+                                    alert('Erro ao abrir a tela.');
+                                }
+                            });
+                        });
+                    });
+                </script>
+                <!-- <li><button>Excluir E-mail</button></li> -->
+
+            </ul>
+        </nav>
+        <section id="emailcad">
+            <h2>Lista de Emails Cadastrados</h2>
+            <!-- <form id="emailForm">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <button type="button" onclick="addEmail()">Adicionar Email</button>
+            </form> -->
+
+
+            <button onclick="listar()" id="btnListarRegistros">Listar E-mails</button>
+            <button onclick="limpar()" id="btnExcluirRegistros">Excluir Emails</button>
+            <div id="resultado"></div>
+            <script>
+                $(document).ready(function () {
+                    $("#btnListarRegistros").click(function () {
+                        // Faz uma requisição AJAX para o script PHP que lista os registros
+                        $.ajax({
+                            url: 'listar_registros.php',
+                            type: 'GET',
+                            success: function (data) {
+                                // Exibe os registros na div 'resultado'
+                                $('#resultado').html(data);
+                            },
+                            error: function () {
+                                alert('Erro ao listar os registros.');
+                            }
+
+                        });
+                    });
+                });
+                // Função para excluir registros
+                $("#btnExcluirRegistros").click(function () {
+                    $.ajax({
+                        url: 'excluir_registros.php',
+                        type: 'POST',
+                        success: function () {
+                            // Após excluir, lista novamente os registros
+                            listarRegistros();
+                            $('#resultado').html(data);//corrigir
+                        },
+                        error: function () {
+                            alert('Erro ao excluir os registros.');
+                        }
+                    });
+                });
+
+            </script>
+            <!-- <ul id="emailList"></ul>
+
+            <script src="scripteste.js"></script> -->
+        </section>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' href='../../styles/mediaquery-basic-footer.css'>
+    <link rel='stylesheet' href='../../styles/mediaquery-basic.css'>
+    <link rel='stylesheet' href='../../styles/basic.css' media='screen and (min-width: 600px)'>
+    <link rel='stylesheet' href='../../styles/reset.css'>
+
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css'
+    integrity='sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=='
+    crossorigin='anonymous' referrerpolicy='no-referrer' />
+
+    <link rel='stylesheet' href='../../styles/media-block.css'>
+    <link rel='stylesheet' href='../../styles/style-blog.css'>
+    <link rel='stylesheet' href='../../styles/newpost.css'>
+    <title>Lorem ipsum dolor sit amet.</title>
+    <link rel='preconnect' href='https://fonts.googleapis.com'>
+    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+    <link href='https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Roboto:wght@500&family=Sora&display=swap' rel='stylesheet'>
+</head>
+
+<body>
+<header>
+<nav class='menus'>
+  <div class='logo'>
+    <a href='../../index.html'><img src='../../img/logo.png' id='logopng'>
+    </a>
+    <div class='icons'>
+      <span class='fa-solid fa-bars' id='bars'></span>
+    </div>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        var barsIcon = document.getElementById('bars');
+        var menusUl = document.querySelector('.menusul');
+
+        barsIcon.addEventListener('click', function () {
+          // Verifica se o display atual é 'none' e altera para 'block', ou vice-versa
+          menusUl.style.display = menusUl.style.display === 'none' || menusUl.style.display === '' ? 'block' : 'none';
+        });
+      });
+    </script>
+
+  </div>
+
+
+  <ul class='menusul'>
+    <li id='dest'><a href='../../index.html'>INÍCIO</a></li>
+    <li><a href='../../src/sobre.html' id='it'>SOBRE</a></li>
+    <li><a href='../../src/solucoes.html' id='it'>SOLUÇÕES</a></li>
+    <button type='button' onclick='blognovo()' class='blogbtn'>BLOG</button>
+    <script>
+      function blognovo() {
+        window.location.href = 'src/blog.php';
+      }
+
+    </script>
+
+  </ul>
+
+</nav>
+
+</header>
+<main class='post-novo'>
+    <h1 id='title-css'>Lorem ipsum dolor sit amet.</h1>
+    <div id='data-publi'>Data de Publicação: 2024-02-14</div>
+    <img src='../posts/' id='capa'>
+    <div id='conteudo-css'><p>Qui facere consequuntur eos debitis minus ut quasi iusto aut consectetur unde. Qui nemo perferendis et facere maiores qui libero perferendis ut eaque recusandae ex velit ducimus ea veritatis necessitatibus qui minima laudantium</p><p>Qui facere consequuntur eos debitis minus ut quasi iusto aut consectetur unde. Qui nemo perferendis et facere maiores qui libero perferendis ut eaque recusandae ex velit ducimus ea veritatis necessitatibus qui minima laudantium</p></div>
+    <div class='custom-container'>
+        <i class='fas fa-user'></i> Autor: MC Recursos - Lagoa da Prata<br>
+        Serviço especializado de Direito no Trânsito
+    </div>
+    <div class='contact'>
+        <h2>Você tem uma multa e quer evitar perder sua habilitação?</h2>
+        <p><a href='https://wa.me/5537988585482?text=Ol%C3%A1%21+Gostaria+de+saber+mais+sobre+a+MC+Recursos%21' id='especialist'>Clique aqui e fale com um especialista!</a></p>
+    </div>
+    <div class='logo-container'>
+        <img src='../../img/logo.png' alt='Logo'>
+    </div>
+
+    <!-- New div -->
+    <div class='footer-mc'>
+
+        <div>
+
+            <h2>Onde Estamos</h2>
+            <div>
+                <h5>R. Ângelo Perilo, 55 - Centro</h5>
+                <h5>Lagoa da Prata - MG, 35590-048</h5>
+            </div>
+        </div>
+        
+        <div>
+            <h2>Redes Sociais</h2>
+            <ul>
+                <li><a href='https://www.facebook.com' target='_blank'>Facebook</a></li>
+                <li><a href='https://www.instagram.com' target='_blank'>Instagram</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Política de Privacidade</h2>
+            <!-- Adicione informações sobre a política de privacidade -->
+        </div>
+        <p>2024 © MC Recursos</p>
+    </div>
+</main>
+</body>
+</html>

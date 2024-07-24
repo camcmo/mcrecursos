@@ -1,0 +1,53 @@
+html{
+    background-image: url(../img/textura2.jpg);
+}
+
+.juridico{
+    margin-top: 150px;
+    width: 100%;
+
+}
+
+.introtxt h1{
+    padding: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.secao1{
+    background-color: brown;
+    color:  white;
+    text-align: center;
+    padding: 35px;
+}
+.secao1 h3{
+    padding: 20px;
+}
+.secao1 i{
+    padding: 35px;
+}
+.secao1 h1{
+    padding: 20px;
+}
+
+.secao2 button{
+    background-color: brown;
+    border-radius: 8px;
+    padding: 15px;
+    margin-right: 20px;
+
+
+}
+.secao2 button a{
+    color: white;
+}
+.secao2{
+    text-align: center;
+    margin: 40px;
+    
+    
+}
+.celular{
+    width: 90%;
+}
